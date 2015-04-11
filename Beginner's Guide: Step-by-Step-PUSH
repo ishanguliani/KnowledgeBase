@@ -29,7 +29,7 @@ Step 3
 Connect to your remote repository from your machine
 
 continue on the command line 
--> do 'git remote add ANY_NAME(YYY) http://github.com/username/XXX-repo.git' [*DONT FORGET THE EXTENSION]
+-> do 'git remote add ANY_NAME(YYY) http://github.com/username/XXX.git' [*DONT FORGET THE EXTENSION]
 Check if the remote has been successfully connected
 -> do 'git remote -v'
 YOU WILL SEE SOMETHING LIKE THIS IF CONNECTED SUCCESSFULLY
