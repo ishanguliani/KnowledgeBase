@@ -1,0 +1,60 @@
+/***
+Created by Ishan Guliani
+http://guthub.com/ishanguliani
+
+Shared publicly under the MIT License
+
+Prerequisite : git should be installed
+Check by running 
+git --version
+***/
+
+Step 1
+
+Create a remote repository on http://github.com/username/
+
+Login -> Repositories -> New -> Enter name(XXX) -> Make public/private -> Save
+
+Step 2
+
+Prepare local repository on your machine
+
+using command line -> cd to root of your project(to be pushed)
+-> do 'git init'
+-> do 'git add .'
+-> do 'git commit'
+
+Step 3
+
+Connect to your remote repository from your machine
+
+continue on the command line 
+-> do 'git remote add ANY_NAME(YYY) http://github.com/username/XXX-repo.git' [*DONT FORGET THE EXTENSION]
+Check if the remote has been successfully connected
+-> do 'git remote -v'
+YOU WILL SEE SOMETHING LIKE THIS IF CONNECTED SUCCESSFULLY
+[ http://xxxxxxxx/ (fetch)
+  http://xxxxxxxx/ (push)
+]
+
+Step 4
+
+Sync the remote repo with the local repo
+
+-> do 'git fetch YYY'
+-> do 'git pull YYY master'
+
+Step 5
+
+Push your local repo to the remote repo
+
+-> do 'git push YYY'
+
+ENTER USERNAME AND PASSWORD WHEN PROMPTED
+DONE
+
+Step 6
+
+Check my going to http://github.com/username/XXX/
+YOUR REPOSITORY IS UPDATED
+
