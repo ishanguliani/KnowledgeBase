@@ -22,7 +22,7 @@ Prepare local repository on your machine
 using command line -> cd to root of your project(to be pushed)
 -> do 'git init'
 -> do 'git add .'
--> do 'git commit'
+-> do 'git commit -m "commit message" '
 
 Step 3
 
