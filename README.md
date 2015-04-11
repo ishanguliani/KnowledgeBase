@@ -7,6 +7,7 @@ GET UP AND RUNNING WITH GIT IN A THRICE
 Author : Ishan Guliani
 http://github.com/ishanguliani/
 Shared Publicly under the MIT License
+Leave comments if more additions required
 ***/
 
 Latest update :  
